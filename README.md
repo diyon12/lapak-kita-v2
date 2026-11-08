@@ -31,9 +31,3 @@ dan transaksi database (`begin_transaction` / `commit` / `rollback`) saat checko
 | Penjual (Toko Sinar Jaya) | `penjual@demo.com` | `penjual123` |
 | Penjual (Dapur Bu Sari) | `penjual2@demo.com` | `penjual123` |
 
-git remote add origin https://github.com/USERNAME/marketplace.git
-git push -u origin main
-```
-
-`config.php` dan isi folder `uploads/` sudah tercantum di `.gitignore`, sehingga password database
-tidak ikut terunggah. Jangan pernah menulis password hosting langsung di file lain yang di-commit.
